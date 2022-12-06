@@ -64,6 +64,6 @@ cukrai.addEventListener('click', () => {
     }))
 const sortedFruits = newCukrai.sort((a,b) => b.sugar - a.sugar);
 sortedFruits.forEach(item => {
-    XPathResult.innerHTML += `<p>${item.name} - ${item.sugar}</p>`
+    rezultatas.innerHTML += `<p>${item.name} - ${item.sugar}</p>`
 })
 })
